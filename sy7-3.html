@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			body{
+				background:url("images/002.jpg")no-repeat top center;
+				padding: 50px 0 0 860px;
+			}
+			form{
+				width: 248px;
+				height: 220px;
+				background-color: rgba(255,255,255,0.9);
+				padding:40px;
+				border: 1px solid #fff;
+				border-radius:5px;
+			}
+			input{
+				display: block;
+			}
+			[type = "text"],[type = "password"]{
+				width: 250px;
+				height: 38px;
+				
+				margin-bottom: 30px;
+				font-size: 16px;
+				text-indent: 50px;
+			}
+			[type = "text"]{
+				background: url("images/zhanghao.jpg")no-repeat 0 -2px;
+				background-color: #FFF;
+			}
+			[type = "password"]{
+				background: url("images/mima.jpg")no-repeat 0 -2px;
+			}
+			[type="checkbox"]{
+				display: inline;
+				vertical-align: middle;
+			}
+			label{
+				font-size: 12px;
+			}
+			.reg{
+				text-align: center;
+				font-size: 12px;
+				margin-top: -18px;
+			}
+			.reg a{
+				color:#999;
+				text-decoration: none;
+			}
+			.reg a:hover{
+				color: #F00;
+				text-decoration: underline;
+			}
+			[type="button"]{
+				width: 255px;
+				height: 44px;
+				margin:25px auto;
+				background-image: url("images/but.jpg");
+				border: none;
+			}
+			.related{
+				width: 330px;
+				height: 145px;
+				background-color:rgba(255,255,255,0.9);
+				
+				
+				text-align: center;
+				font-size: 14px;
+			}
+		</style>
+	</head>
+	<body>
+		<form action="#" method="post" name="fora">
+			  <input type="text" name="user" placeholder="用户名/邮箱地址/手机号">
+			  <input type="password" name="password" placeholder="填写密码">
+			  <input type="checkbox" name="account" value="1" id="account">
+			  <label for="account">记住账号</label>
+			  <div class="reg">
+			        <a href="#">欢迎注册</a>
+			        <a href="#">忘记密码</a>
+			  </div>
+			  <input type="button"name="button">
+			  
+		</form>
+	<div class="related">
+	    合作网站登陆<br>
+		<a href="#"><img src="images/timg.jpg" alt="" width="50px" height="50px"></a>
+		<a href="#"><img src="images/qq.jpg" alt=""width="50px" height="50px"></a>
+		<a href="#"><img src="images/taobao.png" alt=""width="50px" height="50px"></a>
+	</div>
+	</body>
+</html>
